@@ -1,1 +1,21 @@
- 
+# Subgroup Enumerator
+
+This repository will host a Python package, `subgroup_enumerator`, which enumerates subgroups of finite groups. The project will be managed with [Poetry](https://python-poetry.org/).
+
+## Installation
+
+Use Poetry to install dependencies:
+
+```bash
+poetry install
+```
+
+## Usage
+
+Once implemented, the package will provide `enumerate_subgroups` in `subgroup_enumerator/group_theory.py`.
+Unit tests can be run with:
+
+```bash
+poetry run pytest
+```
+
